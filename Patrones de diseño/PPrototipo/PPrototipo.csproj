@@ -43,6 +43,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CAdminPrototipo.cs" />
+    <Compile Include="CAuto.cs" />
+    <Compile Include="CEstudiante.cs" />
+    <Compile Include="CPersona.cs" />
+    <Compile Include="CProductos.cs" />
+    <Compile Include="CValores.cs" />
+    <Compile Include="IPrototipo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
