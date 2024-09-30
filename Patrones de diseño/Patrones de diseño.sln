@@ -5,7 +5,7 @@ VisualStudioVersion = 17.11.35312.102
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PPrototipo", "PPrototipo\PPrototipo.csproj", "{4C7EECBB-8DAB-4475-99E1-130F88D05AB5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PFlyweight", "..\Patrón Flyweight\PFlyweight\PFlyweight.csproj", "{ED70032B-C005-4F92-A69D-58B83366410C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PFlyWeight", "Patrón FlyWeight\PFlyWeight\PFlyWeight.csproj", "{AFA0856E-38BC-4A41-B8EF-64042DC3FE89}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{4C7EECBB-8DAB-4475-99E1-130F88D05AB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4C7EECBB-8DAB-4475-99E1-130F88D05AB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4C7EECBB-8DAB-4475-99E1-130F88D05AB5}.Release|Any CPU.Build.0 = Release|Any CPU
-		{ED70032B-C005-4F92-A69D-58B83366410C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{ED70032B-C005-4F92-A69D-58B83366410C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{ED70032B-C005-4F92-A69D-58B83366410C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{ED70032B-C005-4F92-A69D-58B83366410C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFA0856E-38BC-4A41-B8EF-64042DC3FE89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFA0856E-38BC-4A41-B8EF-64042DC3FE89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFA0856E-38BC-4A41-B8EF-64042DC3FE89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFA0856E-38BC-4A41-B8EF-64042DC3FE89}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
