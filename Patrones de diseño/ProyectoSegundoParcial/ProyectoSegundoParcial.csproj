@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{AFA0856E-38BC-4A41-B8EF-64042DC3FE89}</ProjectGuid>
+    <ProjectGuid>{EB4B0D02-EEAB-4901-84F2-7507149DC2AB}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>PFlyWeight</RootNamespace>
-    <AssemblyName>PFlyWeight</AssemblyName>
+    <RootNamespace>ProyectoSegundoParcial</RootNamespace>
+    <AssemblyName>ProyectoSegundoParcial</AssemblyName>
     <TargetFrameworkVersion>v4.8.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,14 +43,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CFlyweightFactory.cs" />
-    <Compile Include="CReceta.cs" />
-    <Compile Include="IFlyweight.cs" />
+    <Compile Include="CAdaptadorPago.cs" />
+    <Compile Include="CAsiento.cs" />
+    <Compile Include="CCliente.cs" />
+    <Compile Include="CFachadaRestaurante.cs" />
+    <Compile Include="CReserva.cs" />
+    <Compile Include="IAdaptadorPago.cs" />
+    <Compile Include="IAsiento.cs" />
+    <Compile Include="ICliente.cs" />
+    <Compile Include="IFachadaRestaurante.cs" />
+    <Compile Include="IReserva.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include=".editorconfig" />
     <None Include="App.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -10,6 +10,7 @@ namespace PFlyWeight
     {
         static void Main(string[] args)
         {
+
         }
     }
 }
