@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CFabricaAbstractaActividad
 {
-    internal interface IFabrica
+    interface IFabrica
     {
         void crearProductos();
 

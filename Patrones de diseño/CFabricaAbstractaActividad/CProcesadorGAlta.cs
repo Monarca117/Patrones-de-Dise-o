@@ -15,7 +15,7 @@ namespace CFabricaAbstractaActividad
 
         public void producirProcesador()
         {
-            Console.WriteLine("Generando procesador modelo MPGM");
+            Console.WriteLine("Generando procesador modelo MPGA");
         }
     }
 }
