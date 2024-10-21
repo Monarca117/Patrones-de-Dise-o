@@ -10,28 +10,6 @@ namespace PFabricaAbstracta
     {
         static void Main(string[] args)
         {
-            /*
-            IFabrica miFabrica = new CFabricaQuimica();
-
-            miFabrica.crearProductos();
-
-            IProductoLeche miLeche = miFabrica.ObtenProductoLeche;
-            IProductoSaborizante miSabor = miFabrica.ObtenSabor;
-
-            miLeche.producir();
-            miSabor.obtener();
-
-            Console.WriteLine("Mi malteada es de {0} y {1}", miLeche.obtenDatos(), miSabor.informacion());
-
-            miFabrica = new CFabricaNatural();
-
-            miFabrica.crearProductos();
-
-            miLeche = miFabrica.ObtenProductoLeche;
-            miSabor = miFabrica.ObtenSabor;
-            Console.WriteLine("Mi malteada es de {0} y {1}", miLeche.obtenDatos(), miSabor.informacion());
-            */
-
             IFabrica miFabrica1 = CFabricaSeleccion.ObtenInstancia();
 
             miFabrica1.crearProductos();
