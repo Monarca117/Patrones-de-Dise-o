@@ -4,15 +4,14 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C5B6B26E-FE82-43E8-A678-0BB8B0331874}</ProjectGuid>
+    <ProjectGuid>{6D49B7AB-31BE-45C1-9203-FD33BBF6BB88}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>PSingleton</RootNamespace>
-    <AssemblyName>PSingleton</AssemblyName>
-    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <RootNamespace>PedidosOnline</RootNamespace>
+    <AssemblyName>PedidosOnline</AssemblyName>
+    <TargetFrameworkVersion>v4.8.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
-    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -44,10 +43,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CSingleton.cs" />
-    <Compile Include="Logger.cs" />
+    <Compile Include="AppConfig.cs" />
+    <Compile Include="EstadoEnProceso.cs" />
+    <Compile Include="EstadoEntregado.cs" />
+    <Compile Include="EstadoEnviado.cs" />
+    <Compile Include="EstadoRecibido.cs" />
+    <Compile Include="IPedidoEstado.cs" />
+    <Compile Include="Pedido.cs" />
+    <Compile Include="PedidoBuilder.cs" />
+    <Compile Include="PedidoManager.cs" />
+    <Compile Include="PedidoProxy.cs" />
+    <Compile Include="PedidoState.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RealPedidoService.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

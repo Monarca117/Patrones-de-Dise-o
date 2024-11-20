@@ -4,15 +4,14 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C5B6B26E-FE82-43E8-A678-0BB8B0331874}</ProjectGuid>
+    <ProjectGuid>{D90C0B7C-879F-4286-8F73-E617E89953FA}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>PSingleton</RootNamespace>
-    <AssemblyName>PSingleton</AssemblyName>
-    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <RootNamespace>PChain</RootNamespace>
+    <AssemblyName>PChain</AssemblyName>
+    <TargetFrameworkVersion>v4.8.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
-    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -44,8 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CSingleton.cs" />
-    <Compile Include="Logger.cs" />
+    <Compile Include="CJefePiso.cs" />
+    <Compile Include="CPropietario.cs" />
+    <Compile Include="CVendedor.cs" />
+    <Compile Include="IHandler.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

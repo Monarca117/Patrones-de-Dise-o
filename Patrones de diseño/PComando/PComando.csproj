@@ -4,15 +4,14 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C5B6B26E-FE82-43E8-A678-0BB8B0331874}</ProjectGuid>
+    <ProjectGuid>{846F18C1-AF66-40A9-8C08-7B9F1618AECD}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>PSingleton</RootNamespace>
-    <AssemblyName>PSingleton</AssemblyName>
-    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <RootNamespace>PComando</RootNamespace>
+    <AssemblyName>PComando</AssemblyName>
+    <TargetFrameworkVersion>v4.8.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
-    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -44,8 +43,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CSingleton.cs" />
-    <Compile Include="Logger.cs" />
+    <Compile Include="ApagarAlarma.cs" />
+    <Compile Include="Avion.cs" />
+    <Compile Include="ComandoApagarAlarma.cs" />
+    <Compile Include="Automovil.cs" />
+    <Compile Include="ComandoApagar.cs" />
+    <Compile Include="ComandoAterrizar.cs" />
+    <Compile Include="ComandoDescender.cs" />
+    <Compile Include="ComandoElevarse.cs" />
+    <Compile Include="ComandoEncender.cs" />
+    <Compile Include="ComandoPrenderAlarma.cs" />
+    <Compile Include="ComandoVirar.cs" />
+    <Compile Include="ComandoVirar2.cs" />
+    <Compile Include="ControlAvion.cs" />
+    <Compile Include="ControlRemoto.cs" />
+    <Compile Include="IComando.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
