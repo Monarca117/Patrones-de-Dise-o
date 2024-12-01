@@ -21,6 +21,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PChain", "PChain\PChain.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PComando", "PComando\PComando.csproj", "{846F18C1-AF66-40A9-8C08-7B9F1618AECD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardGame", "CardGame\CardGame.csproj", "{BC0F33EA-C099-4E1C-B445-EE9BCD353917}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DefeatTheDragon", "DefeatTheDragon\DefeatTheDragon.csproj", "{3516EDA6-47F5-40D3-9A5C-71608E01DF3F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +67,14 @@ Global
 		{846F18C1-AF66-40A9-8C08-7B9F1618AECD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{846F18C1-AF66-40A9-8C08-7B9F1618AECD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{846F18C1-AF66-40A9-8C08-7B9F1618AECD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC0F33EA-C099-4E1C-B445-EE9BCD353917}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC0F33EA-C099-4E1C-B445-EE9BCD353917}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC0F33EA-C099-4E1C-B445-EE9BCD353917}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC0F33EA-C099-4E1C-B445-EE9BCD353917}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3516EDA6-47F5-40D3-9A5C-71608E01DF3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3516EDA6-47F5-40D3-9A5C-71608E01DF3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3516EDA6-47F5-40D3-9A5C-71608E01DF3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3516EDA6-47F5-40D3-9A5C-71608E01DF3F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
